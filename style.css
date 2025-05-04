@@ -132,3 +132,10 @@ button:hover::before {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--surface-2); 
 }
+
+#car {
+    position: absolute;
+    opacity: 10%;
+    left: 0;
+    bottom: 0;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pugsby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="xp.css">
+</head>
+<body>
+    <div id="desktop">
+        <div class="desktopIcon" onclick="openWindow('imPugsby')">
+            <img src="windowIcon.png">
+            <p>I'm Pugsby</p>
+        </div>
+        <div class="desktopIcon" onclick="openWindow('projects')">
+            <img src="xpICON/1121.ico">
+            <p>Projects</p>
+        </div>
+        <div class="desktopIcon" onclick="openWindow('iframe', 'https://www.autistici.org/burnedprojects/UNDERTALE/', 'UNDERTALE', 'undertale.png')">
+            <img src="undertale.png">
+            <p>UNDERTALE</p>
+        </div>
+    </div>
+    <div style="width: 500px; height: 300px; left: 400px; top: 200px; display: none;" title="I'm Pugsby!" id="imPugsby" image="windowIcon.png">
+        <div>
+            <h2>I'm Pugsby.</h2>
+            <p>This is my Github.io page.
+            <br>This is my third full revision of this page.
+            <br>I don't know what else to type here, explore the website ig.</p>
+            <br>
+            <button onclick="openWindow('projects')">Some of my projects</button>
+            <br>
+            <p>Btw, you have to change tabs then come back to this page for iframes to focus correctly. (You have to redo this each time you open a IFrame window)</p>
+        </div>
+    </div>
+    <div style="width: 400px; height: 250px; left: 200px; top: 200px; display: none;" title="Projects" id="projects" image="xpICON/1123.ico">
+        <div>
+            <h2>Nya</h2>
+            <p>Cat go nya!!!</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/nya'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/nya/'">"Play"</button>
+            <h2>Nut Shooter JS Recreation</h2>
+            <p>A recreation of <a href="https://diy.tvc-16.science/games?id=637f670635980578bcf005542ef651e6 ">Jacadamia's Nut Shooter</a> in Javascript.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/nutShooterJsRecreation'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/nutShooterJsRecreation/'">Play</button>
+            <h2>Media Center</h2>
+            <p>A media center I made, it's a work in progress but it's on a infinite hiatus.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/mediaCenter'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/mediaCenter/'">Page</button>
+            <h2>Geometry Up DX</h2>
+            <p>A game inspired by Geometry Dash, Geometry Up, and Up Dash. I originally made Geometry Up in 2020 because I was bored, then I made this in 2024.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/geometryUpDX'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/geometryUpDX/'">Play</button>
+            <h2>Playlist Player</h2>
+            <p>A website that plays your music playlists.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/playlistPlayer'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/playlistPlayer/'">Page</button>
+            <h2>Webcomics</h2>
+            <p>A collection of webcomics I made.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/webcomics'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/webcomics/'">Page</button>
+            <h2>NewTab</h2>
+            <p>A new tab page I made.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/new-tab'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/new-tab/'">Preview</button>
+            <h2>Guess621</h2>
+            <p>A guessing game I made, you have to guess between rating:safe and rating:questionable on the e621 API.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/guess621'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/guess621/'">Play</button>
+            <h2>Scrlient</h2>
+            <p>A scratch client I made. It was recently "merged" with MediaCenter.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/Scrlient'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/Scrlient/'">Page</button>
+            <h2>Bubble Breeze</h2>
+            <p>A game I made a while ago, it's a work in progress but it's on a infinite hiatus.</p>
+            <button onclick="window.location = 'https://github.com/Pugsby/Bubble-Breeze'">Source Code</button>
+            <button onclick="window.location = 'https://pugsby.github.io/Bubble-Breeze/'">Play</button>
+        </div>
+        <div id="iframe" style="width: 500px; height: 400px; left: 300px; top: 300px; display: none;" title="Iframe" image="xpICON/1483.ico">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

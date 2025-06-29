@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(23, 21, 26);
+    min-height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+h1 .jacadaEmote {
+    width: 40px;
+    height: 40px;
+}
+* {
+    margin: 2px;
+}
+a {
+    color: rgb(255, 103, 230);
+    text-decoration: none;
+}
+.censor {
+    filter: blur(3px);
+}
+#title {
+    position:fixed;
+    width: 160px;
+    right: 0px;
+}
+h3, h2 {
+    margin-top: 10px;
+}
